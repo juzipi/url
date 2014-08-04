@@ -4,177 +4,101 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <style>
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
-}
-table {
-	margin: 10px 0 15px 0;
-	border-collapse: collapse;
-}
-td,th {	
-	border: 1px solid #ddd;
-	padding: 3px 10px;
-}
-th {
-	padding: 5px 10px;	
-}
-
-a {
-    color: #0069d6;
-}
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
-}
-a img {
-    border: none;
-}
-p {
-    margin-bottom: 9px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
-}
-h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
-}
-h2 {
-    font-size: 24px;
-}
-h3 {
-    font-size: 18px;
-}
-h4 {
-    font-size: 16px;
-}
-h5 {
-    font-size: 14px;
-}
-h6 {
-    font-size: 13px;
-}
-hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
-}
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
-}
-blockquote p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-style: italic;
-}
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
-    padding: 0;
-}
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:10px auto;
-    }
+h1, h2, h3, h4, h5, h6, p, blockquote { margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; font-size: 13px; line-height: 18px; color: #737373; background-color: white; margin: 10px 13px 10px 13px; }
+table { margin: 10px 0 15px 0; border-collapse: collapse; }
+td, th { border: 1px solid #ddd; padding: 3px 10px; }
+th { padding: 5px 10px; }
+a { color: #0069d6; }
+a:hover { color: #0050a3; text-decoration: none; }
+a img { border: none; }
+p { margin-bottom: 9px; }
+h1, h2, h3, h4, h5, h6 { color: #404040; line-height: 36px; }
+h1 { margin-bottom: 18px; font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 13px; }
+hr { margin: 0 0 19px; border: 0; border-bottom: 1px solid #ccc; }
+blockquote { padding: 13px 13px 21px 15px; margin-bottom: 18px; font-family: georgia, serif; font-style: italic; }
+blockquote:before { content: "\201C"; font-size: 40px; margin-left: -10px; font-family: georgia, serif; color: #eee; }
+blockquote p { font-size: 14px; font-weight: 300; line-height: 18px; margin-bottom: 0; font-style: italic; }
+code, pre { font-family: Monaco, Andale Mono, Courier New, monospace; }
+code { background-color: #fee9cc; color: rgba(0, 0, 0, 0.75); padding: 1px 3px; font-size: 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+pre { display: block; padding: 14px; margin: 0 0 18px; line-height: 16px; font-size: 11px; border: 1px solid #d9d9d9; white-space: pre-wrap; word-wrap: break-word; }
+pre code { background-color: #fff; color: #737373; font-size: 11px; padding: 0; }
+sup { font-size: 0.83em; vertical-align: super; line-height: 0; }
+* { -webkit-print-color-adjust: exact; }
+@media screen and (min-width:914px) {
+    body { width: 854px; margin: 10px auto; }
 }
 @media print {
-	body,code,pre code,h1,h2,h3,h4,h5,h6 {
-		color: black;
-	}
-	table, pre {
-		page-break-inside: avoid;
-	}
+    body, code, pre code, h1, h2, h3, h4, h5, h6 { color: black; }
+    table, pre { page-break-inside: avoid; }
 }
+.baidu{border:1px solid #ccc; height: 30px; line-height: 30px; padding-left: 5px; width: 200px;}
+a{display: inline-block; padding-right: 5px; font-size: 16px; vertical-align:middle; text-decoration: none; color: #666;}
+.item{display: inline-block; font-size: 12px; padding: 5px 15px;}
+h4{margin-bottom: 10px; border-bottom: 1px solid #ddd;}
 </style>
+
 <title>前端相关</title>
 
 </head>
 <body>
+<form action="http://www.baidu.com/baidu" target="_blank">
+<input name=tn type=hidden value=baidu>
+<input type=text name=word size=30 class="baidu">
+</form>
 <h4>前端相关</h4>
 
-<p><a href="http://github.com">github</a></p>
+<p>
+<span class="item"><a target="_blank" href="http://github.com">github</a>[G]</span>
+<span class="item"><a target="_blank" href="http://www.w3school.com.cn/">w3school</a>[w]</span>
+</p>
 
 <h4>IT相关</h4>
 
-<p><a href="http://www.zhihu.com/">知乎</a>---
-<a href="http://kuaile.shike.blog.163.com/">月关</a></p>
+<span class="item"><a target="_blank" href="http://www.zhihu.com/">知乎</a>[Z]</span>
+<span class="item"><a target="_blank" href="http://kuaile.shike.blog.163.com/">月关</a>[Y]</span>
+<span class="item"><a target="_blank" href="http://www.ezdo.cn/web/user/login.do#!0">todo</a>[T]</span>
+
 
 <h4>购物相关</h4>
 
-<p><a href="http://www.baicaio.com/">白菜哦</a> ---
-<a href="http://www.smzdm.com/">值得买</a></p>
+<span class="item"><a target="_blank" href="http://www.baicaio.com/">白菜哦[B]</a></span> 
+<span class="item"><a target="_blank" href="http://www.smzdm.com/">值得买</a>[S]</span>
 
 <h4>游戏</h4>
 
-<p><a href="http://www.ali213.net/">游侠网</a>---
-<a href="http://www.3dmgame.com/">3dm</a>---
-<a href="http://bbs.a9vg.com/">av9</a>---
-<a href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>---</p>
+<span class="item"><a target="_blank" href="http://www.ali213.net/">游侠网</a></span>
+<span class="item"><a target="_blank" href="http://www.3dmgame.com/">3dm</a></span>
+<span class="item"><a target="_blank" href="http://bbs.a9vg.com/">av9</a></span>
+<span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a></span>
+<script type="text/javascript">
+
+    document.onkeydown=function (even){
+        var kn=even.keyCode;
+
+        switch (kn){
+            case 71:window.open("http://github.com");//g
+            break;
+            case 87:window.open("http://www.w3school.com.cn/");//w
+            break;
+            case 66:window.open("http://www.baicaio.com/");//b
+            break;
+            case 83:window.open("http://www.smzdm.com/");//s
+            break;
+            case 90:window.open("http://www.zhihu.com/");//z
+            break;
+            case 89:window.open("http://kuaile.shike.blog.163.com/");//y
+            break;
+            case 84:window.open("http://www.ezdo.cn/web/user/login.do#!0");//t
+            break;
+
+            }
+}
+</script>
 </body>
 </html>
