@@ -7,7 +7,7 @@
 <link rel="icon" href="logo.png" type="image/png">
 <style>
 h1, h2, h3, h4, h5, h6, p, blockquote { margin: 0; padding: 0; }
-body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; font-size: 13px; line-height: 18px; color: #737373; background-color: white; margin: 10px 13px 10px 13px; }
+body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; font-size: 14px; line-height: 18px; color: #737373; background-color: #F6F5F4;}
 table { margin: 10px 0 15px 0; border-collapse: collapse; }
 td, th { border: 1px solid #ddd; padding: 3px 10px; }
 th { padding: 5px 10px; }
@@ -33,31 +33,38 @@ pre code { background-color: #fff; color: #737373; font-size: 11px; padding: 0; 
 sup { font-size: 0.83em; vertical-align: super; line-height: 0; }
 * { -webkit-print-color-adjust: exact; }
 @media screen and (min-width:914px) {
-    body { width: 854px; margin: 10px auto; }
+    body { width: 1000px; margin: 10px auto; }
 }
 @media print {
     body, code, pre code, h1, h2, h3, h4, h5, h6 { color: black; }
     table, pre { page-break-inside: avoid; }
 }
-.baidu{border:1px solid #ccc; height: 30px; line-height: 30px; padding-left: 5px; width: 200px;}
+.baidu{border:1px solid #ccc; height: 30px; line-height: 30px; padding-left: 5px; width: 100%;}
 a{display: inline-block; padding-right: 5px; font-size: 16px; vertical-align:middle; text-decoration: none; color: #666;}
 .item{display: inline-block; font-size: 12px; padding: 5px 15px;}
-h4{margin-bottom: 10px; border-bottom: 1px solid #ddd;}
+h4{margin-bottom: 10px; border-bottom: 1px solid #ddd; margin-top: 10px;}
 </style>
 
 <title>导航</title>
 
 </head>
 <body>
-<form action="http://www.baidu.com/baidu" target="_blank">
+<!-- <form action="http://www.baidu.com/baidu" target="_blank">
 <input name=tn type=hidden value=baidu>
-<input type=text name=word size=30 class="baidu">
-</form>
+<input type=text name=word size=30 class="baidu" id="baiduInput">
+</form> -->
 <h4>前端相关</h4>
 
 <p>
 <span class="item"><a target="_blank" href="http://github.com">github</a>[G]</span>
 <span class="item"><a target="_blank" href="http://www.w3school.com.cn/">w3school</a>[w]</span>
+</p>
+<h4>本地调试</h4>
+<p>
+<span class="item"><a target="_blank" href="http://10.241.81.61:5757/">本地IP地址调试</a></span>
+<span class="item"><a target="_blank" href="http://bigfish.local:5757/">本地地址调试</a></span>
+<span class="item"><a target="_blank" href="http://10.241.81.61/z">招财进宝</a></span>
+<span class="item"><a target="_blank" href="http://10.241.81.61/zm">招财进宝-Mpos</a></span>
 </p>
 
 <h4>IT相关</h4>
@@ -78,9 +85,19 @@ h4{margin-bottom: 10px; border-bottom: 1px solid #ddd;}
 <span class="item"><a target="_blank" href="http://tianqi.2345.com//">天气</a></span>
 <span class="item"><a target="_blank" href="http://music.baidu.com/">百度音乐</a></span> 
 <span class="item"><a target="_blank" href="http://www.douban.com/">豆瓣</a></span> 
+<span class="item"><a target="_blank" href="http://vip.stock.finance.sina.com.cn/portfolio/main.php">自选股</a></span> 
+<span class="item"><a target="_blank" href="http://sports.sina.com.cn/nba/">新浪NBA</a>[X]</span> 
+
 <h4>游戏</h4>
 
 <span class="item"><a target="_blank" href="http://www.ali213.net/">游侠网</a></span>
+<span class="item"><a target="_blank" href="http://www.3dmgame.com/">3dm</a>[3]</span>
+<span class="item"><a target="_blank" href="http://bbs.a9vg.com/">av9</a></span>
+<span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>[M]</span>
+
+<h4>前端验证</h4>
+
+<span class="item"><a target="_blank" href="http://jigsaw.w3.org/css-validator/">CSS验证</a></span>
 <span class="item"><a target="_blank" href="http://www.3dmgame.com/">3dm</a>[3]</span>
 <span class="item"><a target="_blank" href="http://bbs.a9vg.com/">av9</a></span>
 <span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>[M]</span>
@@ -107,6 +124,8 @@ h4{margin-bottom: 10px; border-bottom: 1px solid #ddd;}
             case 51:window.open("http://www.3dmgame.com");//3
             break;
             case 77:window.open("http://bbs.duowan.com/forum-779-1.html");//M
+            break;
+            case 88:window.open("http://sports.sina.com.cn/nba/");//X
             break;
 
             }
