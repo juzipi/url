@@ -1,8 +1,6 @@
 #### 前端相关
 [github](http://github.com)
 
-
-
 ####购物相关
 [白菜哦](http://www.baicaio.com/) ---
 [值得买](http://www.smzdm.com/)
@@ -11,4 +9,4 @@
 [游侠网](http://www.ali213.net/)---
 [3dm](http://www.3dmgame.com/)---
 [av9](http://bbs.a9vg.com/)---
-[多玩ps3](http://bbs.duowan.com/forum-779-1.html)---
+[多玩ps3](http://bbs.duowan.com/forum-779-1.html)
