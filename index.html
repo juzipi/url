@@ -6,87 +6,74 @@
 <!-- <link href="https://img0.shengpay.com/img/shengpay/favicon.ico" type="image/x-icon" rel="shortcut icon" /> -->
 <link rel="icon" href="logo.png" type="image/png">
 <style>
+html { -webkit-text-size-adjust:none;font-size:62.5%; }
 h1, h2, h3, h4, h5, h6, p, blockquote { margin: 0; padding: 0; }
-body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; font-size: 14px; line-height: 18px; color: #737373; background-color: #F6F5F4;}
-table { margin: 10px 0 15px 0; border-collapse: collapse; }
-td, th { border: 1px solid #ddd; padding: 3px 10px; }
-th { padding: 5px 10px; }
+body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; font-size: 1.; line-height: 18px; color: #737373; background-color: #DBDAD5; padding: 0px; margin: 0px;}
+
 a { color: #0069d6; }
 a:hover { color: #0050a3; text-decoration: none; }
 a img { border: none; }
 p { margin-bottom: 9px; }
 h1, h2, h3, h4, h5, h6 { color: #404040; line-height: 36px; }
-h1 { margin-bottom: 18px; font-size: 30px; }
-h2 { font-size: 24px; }
-h3 { font-size: 18px; }
-h4 { font-size: 16px; }
 
-hr { margin: 0 0 19px; border: 0; border-bottom: 1px solid #ccc; }
-blockquote { padding: 13px 13px 21px 15px; margin-bottom: 18px; font-family: georgia, serif; font-style: italic; }
-blockquote:before { content: "\201C"; font-size: 40px; margin-left: -10px; font-family: georgia, serif; color: #eee; }
-blockquote p { font-size: 14px; font-weight: 300; line-height: 18px; margin-bottom: 0; font-style: italic; }
-code, pre { font-family: Monaco, Andale Mono, Courier New, monospace; }
-code { background-color: #fee9cc; color: rgba(0, 0, 0, 0.75); padding: 1px 3px; font-size: 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-pre { display: block; padding: 14px; margin: 0 0 18px; line-height: 16px; font-size: 11px; border: 1px solid #d9d9d9; white-space: pre-wrap; word-wrap: break-word; }
-pre code { background-color: #fff; color: #737373; font-size: 11px; padding: 0; }
-sup { font-size: 0.83em; vertical-align: super; line-height: 0; }
+h4 { font-size: 1.6rem; }
+.clear{*zoom:1;}
+.clear:after{content: "\20"; clear: both; height: 0; display: block;}
+
 * { -webkit-print-color-adjust: exact; }
-@media screen and (min-width:914px) {
-    body { width: 1000px; margin: 10px auto; }
-}
-@media print {
-    body, code, pre code, h1, h2, h3, h4, h5, h6 { color: black; }
-    table, pre { page-break-inside: avoid; }
-}
+
 .baidu{border:1px solid #ccc; height: 30px; line-height: 30px; padding-left: 5px; width: 100%;}
-a{display: inline-block; padding-right: 5px; font-size: 16px; vertical-align:middle; text-decoration: none; color: #666;}
-.item{display: inline-block; font-size: 12px; padding: 5px 15px;}
-h4{margin-bottom: 10px; border-bottom: 1px solid #ddd; margin-top: 10px;}
+a{display: inline-block; padding-right: 5px; font-size: 1.6rem; vertical-align:middle; text-decoration: none; color: #666;}
+.item{display: inline-block; font-size: 1.2rem; padding: 10px 20px 5px 10px; color: #3AD900;}
+h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
+.page{width: 1000px; margin: 0 auto; margin-top: 20px; background-color: #F6F5F4; padding: 20px 0px; border-radius: 5px; box-shadow: 2px 2px 15px #b4b4b4} 
+.item_list{float: left; width: 45%; margin-left: 3%; padding-top: 20px;}
 </style>
 
 <title>导航</title>
 
 </head>
 <body>
+<div class="page clear">
 <!-- <form action="http://www.baidu.com/baidu" target="_blank">
 <input name=tn type=hidden value=baidu>
 <input type=text name=word size=30 class="baidu" id="baiduInput">
 </form> -->
-<h4>近期</h4>
+<div class="item_list"><h4>近期</h4>
 <span class="item"><a target="_blank" href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 ">Git 教程</a>[G]</span>
 <span class="item"><a target="_blank" href="http://git-scm.com/book/zh/%E8%B5%B7%E6%AD%A5">Git 教程 全面</a>[G]</span>
-
-<h4>前端相关</h4>
+</div>
+<div class="item_list"><h4>前端相关</h4>
 
 <p>
 <span class="item"><a target="_blank" href="http://github.com">github</a>[G]</span>
 <span class="item"><a target="_blank" href="http://www.w3school.com.cn/">w3school</a>[w]</span>
-</p>
-<h4>本地调试</h4>
+</p></div>
+<div class="item_list"><h4>本地调试</h4>
 <p>
 <span class="item"><a target="_blank" href="http://10.241.81.61:5757/">本地IP地址调试</a></span>
 <span class="item"><a target="_blank" href="http://bigfish.local:5757/">本地地址调试</a></span>
 <span class="item"><a target="_blank" href="http://10.241.81.61/z">招财进宝</a></span>
 <span class="item"><a target="_blank" href="http://10.241.81.61/zm">招财进宝-Mpos</a></span>
 </p>
-
-<h4>IT相关</h4>
+</div>
+<div class="item_list"><h4>IT相关</h4>
 
 <span class="item"><a target="_blank" href="http://www.zhihu.com/">知乎</a>[Z]</span>
 <span class="item"><a target="_blank" href="http://kuaile.shike.blog.163.com/">月关</a>[Y]</span>
 <span class="item"><a target="_blank" href="http://www.ezdo.cn/web/user/login.do#!0">todo</a>[T]</span>
 
-
-<h4>购物相关</h4>
+</div>
+<div class="item_list"><h4>购物相关</h4>
 
 <span class="item"><a target="_blank" href="http://www.baicaio.com/">白菜哦</a>[B]</span> 
 <span class="item"><a target="_blank" href="http://www.smzdm.com/">值得买</a>[S]</span>
 <span class="item"><a target="_blank" href="http://www.youjiaus.net/">友家</a></span>
 
 
-
-<h4>综合</h4>
+</div>
+<div class="item_list"><h4>综合</h4>
 
 <span class="item"><a target="_blank" href="http://www.douban.com/">豆瓣</a>[D]</span> 
 <span class="item"><a target="_blank" href="http://tianqi.2345.com//">天气</a></span>
@@ -97,20 +84,21 @@ h4{margin-bottom: 10px; border-bottom: 1px solid #ddd; margin-top: 10px;}
 
 <span class="item"><a target="_blank" href="http://www.2tu.cc/index.html">迅播</a>[2]</span> 
 
-
-<h4>游戏</h4>
+</div>
+<div class="item_list"><h4>游戏</h4>
 
 <span class="item"><a target="_blank" href="http://www.ali213.net/">游侠网</a></span>
 <span class="item"><a target="_blank" href="http://www.3dmgame.com/">3dm</a>[3]</span>
 <span class="item"><a target="_blank" href="http://bbs.a9vg.com/">av9</a></span>
 <span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>[M]</span>
-
-<h4>前端验证</h4>
+</div>
+<div class="item_list"><h4>前端验证</h4>
 
 <span class="item"><a target="_blank" href="http://jigsaw.w3.org/css-validator/">CSS验证</a></span>
 <span class="item"><a target="_blank" href="http://www.3dmgame.com/">3dm</a>[3]</span>
 <span class="item"><a target="_blank" href="http://bbs.a9vg.com/">av9</a></span>
 <span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>[M]</span>
+</div>
 <script type="text/javascript">
 
     document.onkeydown=function (even){
