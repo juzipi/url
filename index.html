@@ -24,12 +24,21 @@ h4 { font-size: 1.6rem; }
 * { -webkit-print-color-adjust: exact; }
 
 .baidu{border:1px solid #ccc; height: 30px; line-height: 30px; padding-left: 5px; width: 100%;}
-a{display: inline-block; padding-right: 5px; font-size: 1.6rem; vertical-align:middle; text-decoration: none; color: #666;}
+a{display: inline-block; padding-right: 5px; font-size: 1.6rem; vertical-align:middle; text-decoration: none; color: #7c7c7c;}
 .item{display: inline-block; font-size: 1.2rem; padding: 10px 5px 5px 10px; color: #3AD900;min-width:90px;}
-h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
+h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px; font-weight:normal;}
 .page{max-width: 1000px; min-width:400px; margin: 0 auto; margin-top: 20px; background-color: #F6F5F4; padding: 20px 0px; border-radius: 5px; box-shadow: 2px 2px 15px #b4b4b4} 
-.item_list{float: left; width: 47%; margin-left: 2%; padding-top: 20px;}
+.item_list{float: left; width: 47%; margin-left: 2%; padding-top: 10px;}
+
 .tianqi{position:absolute; top:20px; right:0px;}
+
+@media(max-device-width:500px ){
+    .tianqi{display: none;}
+
+}
+
+
+
 </style>
 
 <title>导航</title>
@@ -45,34 +54,42 @@ h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
 <span class="item"><a target="_blank" href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 ">Git教程</a></span>
 <span class="item"><a target="_blank" href="http://git-scm.com/book/zh/%E8%B5%B7%E6%AD%A5">Git-book</a></span>
+<span class="item"><a target="_blank" href="http://www.ngnice.com/">Angularjs-api</a></span>
+
+<span class="item"><a target="_blank" href="http://www.w3cschool.cc/angularjs/angularjs-tutorial.html">Angularjs-w</a></span>
+<span class="item"><a target="_blank" href="http://juzipi.github.io/Fdog-web/index.html">Fdog</a>[F]</span>
+<span class="item"><a target="_blank" href="http://www.requirejs.cn/">requirejs</a></span>
+
+
 </div>
+
 <div class="item_list"><h4>前端相关</h4>
 <p>
+
 <span class="item"><a target="_blank" href="http://github.com">Github</a>[G]</span>
+
 <span class="item"><a target="_blank" href="http://www.w3school.com.cn/">W3school</a></span>
 
 <span class="item"><a target="_blank" href="http://www.css88.com/jqapi-1.9/">Jquery-API</a></span>
 <span class="item"><a target="_blank" href="http://stackoverflow.com/">Stackoverflow</a></span>
+
 <span class="item"><a target="_blank" href="http://div.io/">DIV(社区)</a></span>
 <span class="item"><a target="_blank" href="http://www.html-js.com/">前端乱炖</a></span>
 <span class="item"><a target="_blank" href="http://javascript.ruanyifeng.com/">阮一峰（js）</a></span>
-
-
-
+<span class="item"><a target="_blank" href="http://segmentfault.com/">segmentfault</a></span>
 </p></div>
 
 <div class="item_list"><h4>本地调试</h4>
-<p>
-<span class="item"><a target="_blank" href="http://10.241.81.61:5757/">LocalID—bug</a></span>
-<span class="item"><a target="_blank" href="http://bigfish.local:5757/">Local-bug</a></span>
-<span class="item"><a target="_blank" href="http://10.241.81.61/z">ZCJB-APP</a></span>
-<span class="item"><a target="_blank" href="http://10.241.81.61/zm">ZCJB-Mpos</a></span>
-</p>
+<span class="item"><a target="_blank" href="http://bigfish-2.local:5757/">Local-debugg</a>[C]</span>
+<span class="item"><a target="_blank" href="http://10.241.81.61:5757">LocalID-debugg</a></span>
+<span class="item"><a target="_blank" href="http://jsfiddle.net/">Jsfiddle</a></span>
+<span class="item"><a target="_blank" href="http://codepen.io/">Codepen</a></span>
+
 </div>
 <div class="item_list"><h4>IT相关</h4>
 
 <span class="item"><a target="_blank" href="http://www.zhihu.com/">知乎</a>[Z]</span>
-<span class="item"><a target="_blank" href="http://kuaile.shike.blog.163.com/">月关</a>[Y]</span>
+<span class="item"><a target="_blank" href="http://kuaile.shike.blog.163.com/">月关</a></span>
 <span class="item"><a target="_blank" href="http://www.ezdo.cn/web/user/login.do#!0">Todo</a>[T]</span>
 <span class="item"><a target="_blank" href="https://note.wiz.cn/web">Wiz</a>[W]</span>
 <span class="item"><a target="_blank" href="http://baijia.baidu.com/">百度百家</a></span>
@@ -81,18 +98,20 @@ h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
 
 </div>
 <div class="item_list"><h4>购物相关</h4>
-<span class="item"><a target="_blank" href="http://www.baicaio.com/">白菜哦</a>[B]</span> 
-<span class="item"><a target="_blank" href="http://www.smzdm.com/">值得买</a>[S]</span>
-<span class="item"><a target="_blank" href="http://www.taobao.com/">淘宝</a></span>
-<span class="item"><a target="_blank" href="http://www.amazon.com/">Amazon</a></span>
-<span class="item"><a target="_blank" href="http://www.ebay.com/">ebay</a></span>
+
+<span class="item"><a target="_blank" href="http://www.taobao.com/">淘宝</a>[M]</span>
+<span class="item"><a target="_blank" href="http://www.amazon.com/">Amazon</a>[Y]</span>
+<span class="item"><a target="_blank" href="http://www.ebay.com/">ebay</a>[E]</span>
 <span class="item"><a target="_blank" href="http://www.alipay.com/">支付宝</a></span>
 <span class="item"><a target="_blank" href="http://www.paypal.com/">PayPal</a></span>
+
+<span class="item"><a target="_blank" href="http://www.baicaio.com/">白菜哦</a>[B]</span> 
+<span class="item"><a target="_blank" href="http://www.smzdm.com/">值得买</a>[S]</span>
 <span class="item"><a target="_blank" href="http://www.haitaobei.com/">海淘</a></span>
 <span class="item"><a target="_blank" href="http://www.youjiaus.net/">友家</a></span>
 <span class="item"><a target="_blank" href="http://www.bbbao.com/">比比宝</a></span>
-
-
+<span class="item"><a target="_blank" href="http://www.amazon.co.jp/">日亚</a></span>
+<span class="item"><a target="_blank" href="http://www.muji.net/">无印良品</a></span>
 
 </div>
 <div class="item_list"><h4>综合</h4>
@@ -100,21 +119,16 @@ h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
 <span class="item"><a target="_blank" href="http://www.google.com/">Google</a></span>
 <span class="item"><a target="_blank" href="http://www.douban.com/">豆瓣</a>[D]</span> 
 <span class="item"><a target="_blank" href="http://www.lofter.com/">Lofter</a></span> 
-<span class="item"><a target="_blank" href="http://tianqi.2345.com//">天气</a></span>
 <span class="item"><a target="_blank" href="http://music.baidu.com/">百度音乐</a></span> 
 <span class="item"><a target="_blank" href="http://vip.stock.finance.sina.com.cn/portfolio/main.php">自选股</a></span> 
 <span class="item"><a target="_blank" href="http://sports.sina.com.cn/nba/">新浪NBA</a>[X]</span> 
-
 <span class="item"><a target="_blank" href="http://www.2tu.cc/index.html">迅播</a>[2]</span> 
 <span class="item"><a target="_blank" href="http://tools.2345.com/rili.htm">万年历</a></span> 
-<span class="item"><a target="_blank" href="http://tools.2345.com/rili.htm">天气</a></span>
 <span class="item"><a target="_blank" href="https://trade.guosen.com.cn/webcenter/main/index.jsp">国信</a></span>
-
-
 
 </div>
 <div class="item_list"><h4>游戏</h4>
-<span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>[M]</span>
+<span class="item"><a target="_blank" href="http://bbs.duowan.com/forum-779-1.html">多玩ps3</a>[N]</span>
 <span class="item"><a target="_blank" href="http://www.ali213.net/">游侠网</a></span>
 <span class="item"><a target="_blank" href="http://www.3dmgame.com/">3dm</a>[3]</span>
 <span class="item"><a target="_blank" href="http://bbs.a9vg.com/">A9vg</a></span>
@@ -122,7 +136,6 @@ h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
 
 </div>
 <div class="item_list"><h4>前端后期</h4>
-<span class="item"><a target="_blank" href="http://jsfiddle.net/">Jsfiddle</a></span>
 <span class="item"><a target="_blank" href="http://tools.pingdom.com/fpt/">Pingdom</a></span>
 <span class="item"><a target="_blank" href="http://jigsaw.w3.org/css-validator/">CSS验证</a></span>
 <span class="item"><a target="_blank" href="http://validator.w3.org/#validate_by_uri">HTML验证</a></span>
@@ -135,32 +148,41 @@ h4{border-bottom: 1px solid #ddd; background-color: #fff; padding-left: 10px;}
         console.log(kn)
 
         switch (kn){
-            case 71:window.open("http://github.com");//g
+            case 50:window.open("http://www.2tu.cc/index.html");//2
+            break;
+            case 51:window.open("http://www.3dmgame.com");//3
             break;
             case 65:window.open("http://www.baidu.com/");//a
+            break;
+            case 66:window.open("http://www.baicaio.com/");//b
+            break;
+            case 67:window.open("http://bigfish-2.local:5757/");//c
+            break;
+            case 68:window.open("http://www.douban.com");//d
+            break;
+            case 69:window.open("http://www.ebay.com/");//E
+            break;
+            case 70:window.open("http://juzipi.github.io/Fdog-web/index.html/");//F
+            break;
+            case 71:window.open("http://github.com");//g
+            break;
+            case 77:window.open("http://www.taobao.com/");//M
+            break;
+            case 78:window.open("http://bbs.duowan.com/forum-779-1.html");//N
+            break;
+            case 83:window.open("http://www.smzdm.com/");//s
             break;
             case 84:window.open("http://www.ezdo.cn/web/user/login.do#!0");//t
             break;
             case 87:window.open("https://note.wiz.cn/web");//w
             break;
-            case 66:window.open("http://www.baicaio.com/");//b
+            case 88:window.open("http://sports.sina.com.cn/nba/");//X
             break;
-            case 83:window.open("http://www.smzdm.com/");//s
+            case 89:window.open("http://www.amazon.com/");//Y
             break;
             case 90:window.open("http://www.zhihu.com/");//z
             break;
-            case 89:window.open("http://kuaile.shike.blog.163.com/");//y
-            break;
-            case 68:window.open("http://www.douban.com");//d
-            break;
-            case 51:window.open("http://www.3dmgame.com");//3
-            break;
-            case 77:window.open("http://bbs.duowan.com/forum-779-1.html");//M
-            break;
-            case 88:window.open("http://sports.sina.com.cn/nba/");//X
-            break;
-            case 50:window.open("http://www.2tu.cc/index.html");//2
-            break;
+            
             
 
             }
